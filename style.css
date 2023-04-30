@@ -1,0 +1,119 @@
+/* Reset css */
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+#main {
+    background-color: lightpink;
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav {
+
+}
+
+#nav li {
+    /* set ngang */
+    display:inline-block;
+}
+
+
+#slider .text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    /* Cach can giua */
+    /* left: 50%;
+    transform: translateX(-50%);
+    text-align: center; */
+    width: 100%;
+    text-align: center;
+
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+#slider .text-desription {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+
+#content {
+
+    
+}
+
+#content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: white;
+    text-decoration:underline;
+}
+
+#content .section-sub-heading {
+    font-size: 16px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .section-heading, #content .section-sub-heading
+{
+    text-align: center;
+}
+
+#content .about-text {
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.4;
+    color:#fff;
+}
+
+#content .member-list{
+    margin-top: 48px;
+    overflow: hidden;
+
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+    /* width: 33.33333%; */
+}
+
+#content .member-name {
+    font-size: 15px;
+
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
